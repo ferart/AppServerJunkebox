@@ -1,0 +1,25 @@
+{
+  "name": "appserver-junkebox",
+  "version": "1.0.0",
+  "description": "appserver for the junkebox project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferart/AppServerJunkebox.git"
+  },
+  "author": "Fernando Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferart/AppServerJunkebox/issues"
+  },
+  "homepage": "https://github.com/ferart/AppServerJunkebox#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-gcm": "^0.14.4"
+  }
+}
